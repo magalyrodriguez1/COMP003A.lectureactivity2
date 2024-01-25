@@ -163,7 +163,42 @@ namespace COMP003A.lectureactivity2
             int result = ((2 + 1) * 8 - (3 * 2) * 2) / 4;
             Console.WriteLine($"Value of result: {result}");
 
+            //compound assignment operator 
+            int compoundAssignmentOperator = 0;
+            compoundAssignmentOperator += 5;
+            //the equivalent of compoundAssignmentOperator = compoundAssignmentOperator + 5; (a is 5 after this line runs)
 
+            compoundAssignmentOperator -= 2;
+            //the equivalent of compoundAssignmentOperator = compoundAssignmentOperator - 2; (a is 3 after this line runs)
+
+            compoundAssignmentOperator *= 4;
+            //the equivalent of compoundAssignmentOperator = compoundAssignmentOperator *4, a is 12 after this line runs 
+
+            compoundAssignmentOperator /= 2;
+            //the equivalent of compoundAssignmentOperator = compoundAssignmentOperator / 2, a is 6 after this line runs
+
+            compoundAssignmentOperator %= 2;
+            //the equivalent of compoundAssignmentOperator = compoundAssignmentOperator % 2 a is 0
+
+            //increment and decrement operators
+            int incrementDecrementOperators = 0;
+            incrementDecrementOperators++;
+            //the equivalent of incrementDecrementOperators += 1; or incrementDecrementOperators = incrementDecrementOperators +1
+
+            incrementDecrementOperators--;
+            //the equivalent of incrementDecrementOperators -=1 or incrementDecrementOperators = incrementDecrementOperators -1;
+
+            Console.WriteLine("*********************************************************************");
+            //console 2.0 
+            Console.Write("What is your name, human? "); //notice the space at the end so there is a spce when you print in the terminal.
+            Console.WriteLine("Press any key when you're ready to begin.");
+            Console.ReadKey(); //reads a keystroke
+
+            Console.BackgroundColor = ConsoleColor.Yellow; //changes the console background to yellow
+            Console.ForegroundColor = ConsoleColor.Black; // changes the console text to black
+            Console.Title = "Hello World!"; //changes the console title
+            Console.Beep(440, 1000); //console beeps
+      
 
 
 
